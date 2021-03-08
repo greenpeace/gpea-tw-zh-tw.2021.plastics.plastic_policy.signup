@@ -253,6 +253,12 @@ const initForm = () => {
 }
 
 function init () {
+    console.log(window.location.search)
+    const urlParams = new URLSearchParams(window.location.search);
+    if (urlParams.get("utm_source") === "dd") {
+        $(".donate-btn").hide();
+    }
+    
     
     const EN_PAGE_STATUS = resolveEnPagePetitionStatus()
 	// console.log("EN_PAGE_STATUS", EN_PAGE_STATUS)
