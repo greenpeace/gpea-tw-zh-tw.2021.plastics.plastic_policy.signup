@@ -257,6 +257,30 @@ function init () {
     const urlParams = new URLSearchParams(window.location.search);
     if (urlParams.get("utm_source") === "dd") {
         $(".donate-btn").hide();
+        $(".share-section").removeClass("col-md-4")
+        $(".share-section").removeClass("col-sm-6")
+        $(".share-section").addClass("col-md-8")
+        $(".share-section").addClass("col-sm-12")
+        $(".slider-typography").css("position", "relative");
+        $(".slider-typography").css("padding-top", "15%");
+        $(".line-share-img").hide();
+
+        switch (urlParams.get("utm_content")) {
+            case "tp":
+                $(".tp-line").show();
+                break;
+            case "tc":
+                $(".tc-line").show();
+                break;
+            case "ks":
+                $(".ks-line").show();
+                break;    
+            default:
+                $(".tp-line").show();
+                break
+        }
+    } else {
+        $(".line-share-section").hide()
     }
     
     
@@ -265,6 +289,9 @@ function init () {
 	if (EN_PAGE_STATUS==="FRESH") {
     
         $(".page-2").hide();
+        // $('.page-1').hide();
+        // $('.page-2').show();
+
 
 	} else if (EN_PAGE_STATUS==="SUCC") {
         
