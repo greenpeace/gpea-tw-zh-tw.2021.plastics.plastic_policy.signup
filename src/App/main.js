@@ -267,16 +267,20 @@ function init () {
 
         switch (urlParams.get("utm_content")) {
             case "tp":
+                $(".line-link").attr("href", "http://act.gp/GPLINE_tp");
                 $(".tp-line").show();
                 break;
             case "tc":
                 $(".tc-line").show();
+                $(".line-link").attr("href", "http://act.gp/GPLINE_tc");
                 break;
             case "ks":
                 $(".ks-line").show();
+                $(".line-link").attr("href", "http://act.gp/GPLINE_ks");
                 break;    
             default:
                 $(".tp-line").show();
+                $(".line-link").attr("href", "http://act.gp/GPLINE_tp");
                 break
         }
     } else {

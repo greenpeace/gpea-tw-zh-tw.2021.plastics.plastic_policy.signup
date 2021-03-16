@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "https://change.greenpeace.org.tw/2021/petition/zh-TW.2021.plastics.plastic_policy.signup/static/css/main.3e5259a4.chunk.css",
-    "main.js": "https://change.greenpeace.org.tw/2021/petition/zh-TW.2021.plastics.plastic_policy.signup/static/js/main.258c65d5.chunk.js",
-    "main.js.map": "https://change.greenpeace.org.tw/2021/petition/zh-TW.2021.plastics.plastic_policy.signup/static/js/main.258c65d5.chunk.js.map",
+    "main.js": "https://change.greenpeace.org.tw/2021/petition/zh-TW.2021.plastics.plastic_policy.signup/static/js/main.de07d06a.chunk.js",
+    "main.js.map": "https://change.greenpeace.org.tw/2021/petition/zh-TW.2021.plastics.plastic_policy.signup/static/js/main.de07d06a.chunk.js.map",
     "runtime-main.js": "https://change.greenpeace.org.tw/2021/petition/zh-TW.2021.plastics.plastic_policy.signup/static/js/runtime-main.b68749ec.js",
     "runtime-main.js.map": "https://change.greenpeace.org.tw/2021/petition/zh-TW.2021.plastics.plastic_policy.signup/static/js/runtime-main.b68749ec.js.map",
     "static/js/2.66d36a32.chunk.js": "https://change.greenpeace.org.tw/2021/petition/zh-TW.2021.plastics.plastic_policy.signup/static/js/2.66d36a32.chunk.js",
     "static/js/2.66d36a32.chunk.js.map": "https://change.greenpeace.org.tw/2021/petition/zh-TW.2021.plastics.plastic_policy.signup/static/js/2.66d36a32.chunk.js.map",
     "index.html": "https://change.greenpeace.org.tw/2021/petition/zh-TW.2021.plastics.plastic_policy.signup/index.html",
-    "precache-manifest.b6dda54587705c6976f94c8b7fe383f6.js": "https://change.greenpeace.org.tw/2021/petition/zh-TW.2021.plastics.plastic_policy.signup/precache-manifest.b6dda54587705c6976f94c8b7fe383f6.js",
+    "precache-manifest.fd1be2da7100ec58c9b94ba9e92503ff.js": "https://change.greenpeace.org.tw/2021/petition/zh-TW.2021.plastics.plastic_policy.signup/precache-manifest.fd1be2da7100ec58c9b94ba9e92503ff.js",
     "service-worker.js": "https://change.greenpeace.org.tw/2021/petition/zh-TW.2021.plastics.plastic_policy.signup/service-worker.js",
     "static/css/main.3e5259a4.chunk.css.map": "https://change.greenpeace.org.tw/2021/petition/zh-TW.2021.plastics.plastic_policy.signup/static/css/main.3e5259a4.chunk.css.map",
     "static/js/2.66d36a32.chunk.js.LICENSE.txt": "https://change.greenpeace.org.tw/2021/petition/zh-TW.2021.plastics.plastic_policy.signup/static/js/2.66d36a32.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.b68749ec.js",
     "static/js/2.66d36a32.chunk.js",
     "static/css/main.3e5259a4.chunk.css",
-    "static/js/main.258c65d5.chunk.js"
+    "static/js/main.de07d06a.chunk.js"
   ]
 }
