@@ -154,10 +154,11 @@ const initForm = () => {
         function (value, element) {
             
             const phoneReg6 = new RegExp(/^(0|886|\+886)?(9\d{8})$/).test(value);
-			const phoneReg7 = new RegExp(/^(0|886|\+886){1}[2-8]-?\d{6,8}$/).test(value);
+            const phoneReg7 = new RegExp(/^(0|886|\+886){1}[3-8]-?\d{6,8}$/).test(value);
+            const phoneReg8 = new RegExp(/^(0|886|\+886){1}[2]-?\d{8}$/).test(value);
 
             if ($('#fake_supporter_phone').val()) {
-                return (phoneReg6 || phoneReg7)
+                return (phoneReg6 || phoneReg7 || phoneReg8)
             }
             console.log('phone testing')
             return true
@@ -277,7 +278,7 @@ function init () {
             case "ks":
                 $(".ks-line").show();
                 $(".line-link").attr("href", "http://act.gp/GPLINE_ks");
-                break;    
+                break;
             default:
                 $(".tp-line").show();
                 $(".line-link").attr("href", "http://act.gp/GPLINE_tp");
