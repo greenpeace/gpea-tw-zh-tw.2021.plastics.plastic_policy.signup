@@ -70,6 +70,21 @@ footer {
     }
 }
 
+#center_sign-submit {
+    color: white !important;
+    background-color: #ff8100;
+    border: none;
+    border-radius: 4px;
+}
+
+#center_sign-submit:hover {
+    background-color: #ffb660;
+}
+
+#center_sign-submit:active {
+    background-color: #e96d00;
+}
+
 #third {
     padding: 0 !important;
     line-height: 2;

@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "db73fde468d896f91fdceff40874a8ac",
+    "revision": "b2749d1f065b6fb28e39194b3bdd6a45",
     "url": "https://change.greenpeace.org.tw/2021/petition/zh-TW.2021.plastics.plastic_policy.signup/index.html"
   },
   {
-    "revision": "23265a673a7cb73babcc",
-    "url": "https://change.greenpeace.org.tw/2021/petition/zh-TW.2021.plastics.plastic_policy.signup/static/css/main.3e5259a4.chunk.css"
+    "revision": "3322786b811bd2005d63",
+    "url": "https://change.greenpeace.org.tw/2021/petition/zh-TW.2021.plastics.plastic_policy.signup/static/css/main.f68f861d.chunk.css"
   },
   {
     "revision": "54737aed846c59946a4c",
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "https://change.greenpeace.org.tw/2021/petition/zh-TW.2021.plastics.plastic_policy.signup/static/js/2.66d36a32.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "23265a673a7cb73babcc",
+    "revision": "3322786b811bd2005d63",
     "url": "https://change.greenpeace.org.tw/2021/petition/zh-TW.2021.plastics.plastic_policy.signup/static/js/main.38a40b7e.chunk.js"
   },
   {
